@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Jack Candy Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="javascript.js"></script>
+</head>
+<body>
+
+    <form onsubmit="return validate()" method="GET">
+        <div>
+        <div>
+            <p>Name</p>
+            <input type="text" id="nama" placeholder="Full Name">
+        </div>
+        <div>
+            <p>Candy Type</p>
+            <select id="candytypes">
+                <option value="Bubblegum">Bubblegum</option>
+                <option value="Chocolate">Chocolate</option>
+                <option value="Lolipop">Lolipop</option>
+                <option value="Chewy">Chewy</option>
+            </select>
+        </div>
+        <div>
+            <p>Quantity</p>
+            <input type="text" id="quantity" placeholder="1-12">
+        </div>
+        <div>
+            <p>Package</p>
+            <input type="radio" id="Package" name="package" value="reguler">Reguler
+            <br>
+            <input type="radio" id="Package" name="package" value="exclusive">Exclusive
+        </div>
+
+        <div>
+            <input type="reset" value="reset">
+            <input type="submit" value="Submit" id="submit">
+        </div>
+
+
+        </div>
+
+    </form>
+    
+</body>
+</html>
